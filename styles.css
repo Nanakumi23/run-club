@@ -16,7 +16,6 @@ ul a{
     color: coral;
     width: 100%;
     height:500px;
-    border: solid red 1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +32,7 @@ ul a{
     font-weight: normal;
 }
 .summary{
-    border: solid red 1px;
+ 
 }
 
 .summary h2{
@@ -49,7 +48,7 @@ ul a{
         color: coral;
         width: 100%;
         height:220px;
-        border: solid red 1px;
+    
         display: flex;
         align-items: center;
         justify-content: center;
@@ -96,7 +95,43 @@ ul a{
     }
 
     #testimonials{
-        border: solid red 1px;
+        
+        background-color: teal;
+        color: yellow;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      
+
+    }
+
+    #testimonials h1 
+    {
+        font-size: 13px;
+    }
+
+    #testimonials p{
+        font-size: 6px;
+    }
+
+    .meetup{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meetup img{
+        width: 50%;
+       
+    }
+
+    .meetup h2{
+        font-size: 16px;
+        color: yellow;
+
+    
     }
 
 
